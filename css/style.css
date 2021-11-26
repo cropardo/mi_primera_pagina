@@ -1,0 +1,263 @@
+@charset "UTF-8";
+header {
+	background-color: #012840;
+	color: #FFFFFF;
+	height: 100px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav ul {
+	text-align: left;
+	clear: none;
+	float: none;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+
+}
+
+nav {
+	background-color: #FFB400;
+	color: #FFFFFF;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+header h1 {
+	font-style: normal;
+	font-size: 48px;
+	
+	text-align: center;
+	margin-top: auto;
+	padding-top: 20px;
+}
+
+h1{font-family: 'Quicksand', sans-serif;
+font-weight: 400;}
+header nav section footer main {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 80%;
+}
+footer {
+	background-color: #D96D55;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+	font-variant: normal;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+}
+footer h5 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: lighter;
+	font-size: 20px;
+}
+main {
+	background-color: #F3ECE4;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+main section  {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #F0A897;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: auto;
+	border: 8px double #FFFFFF;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 13px;
+	font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+}
+#img1 {
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+main section h2 {
+	font-style: normal;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Quicksand', sans-serif;
+
+	font-weight: 400;
+}
+
+a:link{
+	color: #0069A2;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:visited {
+	color: #6A21C3;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+#img2 {
+	width: 27%;
+	margin-top: 30px;
+	float: right;
+	margin-left: 10px;
+}
+#gif1 {
+	width: 60%;
+	display: block;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding-bottom: 0px;
+	margin-left: auto;
+}
+#img3 {
+	width: 50%;
+	display: block;
+	border-radius: 40px;
+	margin-top: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#img4 {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 30px;
+	display: block;
+	border-radius: 10px 10px 120px;
+}
+#img5 {
+	display: block;
+	margin: auto;
+	width: 50%;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+#img6 {
+	display: inline-block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	width: 40%;
+	margin-bottom: 30px;
+	padding-right: 0px;
+	filter: brightness(150%);
+}
+#img7 {
+	display: block;
+	margin-top: auto;
+	margin-right: 20px;
+	margin-left: auto;
+	margin-bottom: 30px;
+	width: 40%;
+	margin-bottom: 30px;
+	float: left;
+	filter: blur(3px);
+}
+
+#img8 {
+	display: inline-block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	width: 40%;
+	margin-bottom: 30px;
+	padding-right: 0px;
+	filter: grayscale(100%);
+}
+#img9 {
+	display: block;
+	margin-top: auto;
+	margin-right: 20px;
+	margin-left: auto;
+	margin-bottom: 30px;
+	width: 40%;
+	margin-bottom: 30px;
+	float: left;
+	filter: contrast(180%);
+}
+
+#img10 {
+	display: inline-block;
+	margin-top: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	width: 40%;
+	margin-bottom: 30px;
+	padding-right: 0px;
+	filter: opacity(40%);
+}
+#img11 {
+	display: block;
+	margin-top: auto;
+	margin-right: 20px;
+	margin-left: auto;
+	margin-bottom: 30px;
+	width: 40%;
+	margin-bottom: 30px;
+	float: left;
+	filter: invert(100%);
+}
+#img12 {
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	width: 40%;
+	display: inline;
+	filter: sepia(90%);
+}
+#img13 {
+	float: left;
+	margin-top: auto;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	width: 40%;
+	filter: saturate(200%);
+}
+#img-internet {
+	margin: auto;
+	width: 50%;
+	display: block;
+}
+#picture_1 {
+	width: 100%;
+}
