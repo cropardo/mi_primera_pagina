@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Listas en html</title>
+	
+	<style type="text/css">
+		*{
+			margin:0;
+			padding: 0;
+		}
+		
+		<style type="text/css">
+	nav ul {
+	text-align: left;
+	clear: none;
+	float: none;
+}
+	a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:visited {
+	color: #6A21C3;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	
+}
+* {
+	padding-top: 0px;
+}
+nav {
+	background-color: #FFB400;
+	color: #FFFFFF;
+	width: 80%;
+	height: 38px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body nav ul {
+	margin-top: 20px;
+}
+		dt{
+			font-weight: bold;
+			font-size: 24px;
+			color:darkblue;
+		}
+		h1{
+			font-size: 48px;
+			color:#FAF1EC;
+		}
+		h2{
+			font-size:32px;
+			color: #386192
+		}
+		header,nav,main,footer{
+			width:960px;
+			/*height:100px;*/
+			background-color:#386192;
+			padding:50px;
+			margin:0 auto;
+			
+		}
+		header{
+			text-align: center;
+		}
+		nav{background-color:#7EB7B6;
+			height:80px;
+			padding: 30px 50px;
+		}
+		main{
+			background-color:#B1BFC8;
+			height:auto;
+		}
+		footer{
+			background-color:#2A5C6A;
+			height:60px;
+
+		}
+		section{
+			width: 760px;
+			height: auto;
+			background-color:#FAF1EC;
+			margin:20px auto;
+			padding: 20px 20px;
+		}
+		ul,ol{
+			margin:50px;
+		}dl{
+			margin:20px;
+		}
+		dt{
+			margin:10px;
+		}
+		dd{
+			margin:20px 30px;
+		}
+		footer{
+			text-align: center;
+			color:#FAF1EC;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>LISTAS EN HTML</h1>
+	</header>
+	<nav>
+<ul>
+<li><a href="../index.html">Inicio</a></li>
+	<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="listas.html">Listas</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="imagenes.html">Imágenes</a></li>
+	<li><a href="audio.html">Audio</a></li>
+	<li><a href="video.html">Video</a></li>
+	<li><a href="formularios.html">Formularios</a></li>
+	<li><a href="animate.html">Animación</a></li>
+	<li><a href="flexbox.html">Flexbox</a></li>
+	</ul>
+
+</nav>
+	<main>
+		<section>
+			<h2>Lista desordenada o viñetas</h2>
+			<ul>
+				<li>México</li>	
+				<li>España</li>
+				<li>Argentina</li>
+				<li>Guatemala</li>
+				<li>Italia</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Listas ordenadas o con viñeta numerada</h2>
+			<ol>
+				<li>Grecia</li>
+				<li>Bolivia</li>
+				<li>Canada</li>
+				<li>Australia</li>
+				<li>México</li>
+			</ol>
+		</section>
+	<section>
+	<h2>Lista mixta</h2>
+	<ul>
+    <li>México
+   	  	<ol>
+	    	<li>Puebla</li>
+		    <li>Veracruz</li>
+		    <li>Baja California</li>
+		    <li>Oaxaca</li>
+		</ol>
+	</li>
+	<li>España
+		<ol>
+			<li>Madrid</li>
+			<li>Sevilla</li>
+			<li>Barcelona</li>
+		</ol>    
+	</li>
+	<li>Argentina
+		<ol>
+			<li>Buneos Aires</li>
+			<li>Catamarca</li>
+			<li>Córdoba</li>
+			<li>Chubit</li>
+		</ol>
+	</li>
+	<li>Guatemala
+		<ol>
+			<li>Baja Verapaz</li>
+			<li>Totonicapan</li>
+			<li>San Marcos</li>
+			<li>Chimaltenango</li>
+		</ol>
+	</li>
+	<li>Italia
+    	<ol>
+    		<li>Sicilia</li>
+    		<li>Lombardia</li>
+    		<li>Umbria</li>
+    		<li>Cerdeña</li>
+    	</ol> 
+    </li> 
+	</ul>
+	</section>
+	<section>
+		<h2>Lista de descripción</h2>
+		<dl>
+			<dt>Hosting</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis necessitatibus impedit quidem quisquam. Quae, voluptas.</dd>
+			<dt style="font-style:italic">Dominio</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi id voluptates, assumenda. Voluptatibus, possimus, maiores?</dd>
+			<dt style="font-weight:normal">Sitio web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita facilis perferendis vitae quasi rerum. Illo facilis eos voluptates deserunt eius quibusdam totam nobis, excepturi repellat natus tempore, est maxime error.</dd>
+			<dt>Sistema web</dt>
+			<dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum facere, labore ea est aperiam eos, quia laudantium fugiat sed magnam.</dd>
+		</dl>
+	</section>
+	<section>
+		<h2>Lista con viñeta de imagen</h2>
+		<ul style="list-style-image:url('../img/flor_rosa_1.png')">
+			<li>Benjamin Lacombe</li>
+			<li>Anotnia Brico</li>
+			<li>Christian Vizl</li>
+			<li>César Moreno</li>
+			<li>Palmira Campaña</li>
+		</ul>
+	</section>
+	</main>
+		
+	<footer>
+				   <h4 style="font-weight:normal">Elaborado por: Carolina Pardo Orozco</h4>
+	</footer>
+</body>
+</html>
