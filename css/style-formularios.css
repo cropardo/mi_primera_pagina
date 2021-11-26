@@ -1,0 +1,221 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	
+}font-family: 'Open sans', sans-serif;font-family: 'Open sans', sans-serif;font-family: 'Open sans', sans-serif;font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif;*{
+	margin: 0;
+	padding: 0;
+	
+}
+header {
+	background-color: #012840;
+	color: #FFFFFF;
+	height: 100px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Quicksand', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+	font-size: x-small;
+}
+
+header h1 {
+	font-family: 'Quicksand', sans-serif;
+font-weight: 400;
+	font-size: 42px;
+}
+nav ul {
+	text-align: left;
+	clear: none;
+	float: none;
+}
+nav ul li {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+}
+* {
+	padding-top: 0px;
+}
+nav {
+	background-color: #FFB400;
+	color: #FFFFFF;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	display: flex;
+}
+header h1 {
+	font-style: normal;
+	font-size: 30px;
+	text-align: center;
+	margin-top: auto;
+	padding-top: 20px;
+}
+header nav section footer main {
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 80%;
+}
+footer {
+	background-color: #D96D55;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+	font-variant: normal;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+}
+footer h5 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: 300;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+
+	font-style: normal;
+}
+main {
+	background-color: #F3ECE4;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+main section {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #F0A897;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: auto;
+	border: 8px double #FFFFFF;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 20px;
+font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+}
+#img1 {
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+main section h2 {
+	font-style: normal;
+	font-size: 25px;
+	color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Quicksand', sans-serif;
+
+	font-weight: 400;
+}
+
+a:link{
+	color: #0069A2;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:visited {
+	color: #6A21C3;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bolder;}
+	
+input[type=text]{
+	background-color: #012840;
+	color: white;
+	width: 50%;
+	margin: 10px;
+	padding: 8px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+	border-radius: 10px;
+}
+input[type=submit]{
+	background-color: #1BC3BE;
+	height: 30px;
+	width: 100px;
+	padding-top: auto;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+}
+.parrafo_formulario, label{
+	font-size: 18px;
+	color: aliceblue;
+	
+}
+
+#edad{background-color: #012840;
+	color: white;
+	width: 50%;
+	margin: 10px;
+	padding: 8px;
+	font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+	border-radius: 10px;
+}
+
+#pais{background-color: #012840;
+	color: white;
+	width: 120px;
+	margin: 10px;
+	padding: 8px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+
+	font-style: normal;
+	font-weight: 300;
+	border-radius: 10px;
+}
